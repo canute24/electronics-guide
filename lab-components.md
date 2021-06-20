@@ -10,10 +10,10 @@
 - Breadboard PSU	: MB102 (2x LDO, headers, USB port, barrel jack, filters caps and switch)
 - Soldering Station	: Mini TS80 / Mini TS100
 - Oscilloscope		: RIGOL DS1054Z / OWON or Hantex USB Scope / DSO138mini (has vlow BW)
-- LCR Tester		: M328 MTester
+- Isolation Transformer
+- LCR Tester		: M-Tester M328 (Multifunction Tester)
 - Voltmeter
-- Ammeter
-	- MS Systems? Flipkart
+- Ammeter			: Micro Systems and Controls (MS Controls) / Eltrac / Yokins
 - Crimptool			: IWISS-I3220 (32 - 20 AWG) / IWISS-I2420 (24 - 20 AWG)
 - Programmer
 	- Universal		: TL866
@@ -94,8 +94,15 @@
 		- With Bootstrap: IR2110 - IR2113
 - Transistors			: BC547 (NPN) / BC557 (PNP)
 - Darlington Transistor : TIP140 - 142 (NPN) / TIP145 - 147 (PNP)
-- Diode					: 1N4148 & IN4007
-- Schottky Diode		: 1N5819
+- Voltage Referece		: TL431A (Programmable shunt regulator) (A=1% tolerance)
+- Diode
+	- General Purpose
+		- Low current	: IN4007 (If=1A, Vr=1000V) / IN4001 (If=1A, Vr=50V)
+		- Power Diode	: 1N5408 (Vf=1V, If=3A, Vr=1000V, Pmax=.625W)
+	- Small signal fast	: 1N4148 (If=0.3A, Vr=75V, tr=8ns)
+	- Schottky
+		- Low Current	: 1N5819 (Vf=0.6V@1A / 0.34@0.1A, If=1A, Vr=40V)
+		- Power Diode	: 1N5824 (Vf=0.34V@3A If=5A, Vr=30V, Ir=10mA)
 - Thermistors (inrush)	: NTC-47D-15 (47 ohm -> 2 ohm 2.5A max)
 - MOV
 	- EPCOS / TDK		: B72220S0431K101
@@ -137,8 +144,9 @@
 	- Bergstrip - Male / Female
 	- 2510 Connector
 	- Molex Connector
-	- Barrel jack
-	- Barrel jack to terminal connector
+	- 9V battery connector
+	- Barrel jack (5.5mm x 2.5mm dia external and internal)
+	- Barrel jack to terminal connector / terminal block
 	- Terminal Connectors (0.1" pitch / 0.2" pitch)
 	- Crocodile clips
 	- Banana Plugs
