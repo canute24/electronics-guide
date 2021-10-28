@@ -288,8 +288,10 @@ Source: Interwebz, Mortons on the Move, Battle Born, Battery University
 LFP:
 - Winston
 - CALB (China Aviation Lithium Battery)
+- Gotion
 - EVE
 - Lishen
+- FB Tech
 
 NMC:
 - BAK Tech
