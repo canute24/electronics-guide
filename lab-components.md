@@ -113,7 +113,10 @@
         - W/O Bootstrap : TC4420 / TC4428 (dual)
         - With Bootstrap: IR2110 - IR2113
 - Triac                 : BT136
-- Voltage Referece      : TL431A (Programmable shunt regulator) (A=1% tolerance)
+- Voltage Referece
+    - General Purpose   : TL431A/B/C (0.5/1/2% tolerance) (Programmable shunt regulator)
+    - Low Power         : LM4040 / LM4041 (Programmable) (0.1 - 1% tolerance)
+    - High Precision    : REF01 / REF02 (Programmable) (0.001%)
 - Metal Oxide Varistor (MOV) / IsoMOV (Hybrid GDT + MOV) low leakage made by Bourns Inc
     - EPCOS / TDK       : B72220S0431K101
                         : B722                      Product Code
