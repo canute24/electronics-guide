@@ -9,13 +9,14 @@
 - Breadboard        : MB102 830 tie points with power bus
 - Breadboard PSU    : MB102 (2x LDO, headers, USB port, barrel jack, filters caps and switch)
 - Helping hands / PCB holder
-- Soldering Station : PINECIL / Mini TS100 / Hako
+- Soldering Station : KSGER T12 / PINECIL / Mini TS100 / Hako 936 / Any chinese 936 clone
 - Solder            : Flux-cored 0.6 - 1.2 mm
 - Isopropyl Alchohol
 - Soldering Desk Mat
 - Oscilloscope
     - Budget        : OWON or Hantex USB Scope / DSO138mini (has vlow BW)
-    - Entry-level   : Siglent SDS1052 / RIGOL DS1054Z / Hantek DSO5102 / Keysight 1000X Series
+    - Entry-level   : Siglent SDS1052DL / RIGOL DS1054Z / Hantek DSO5102P / Keysight 1000X Series
+    - DMM combo     : OWON HDS272S
 - Isolation Transformer
 - LCR Tester        : M-Tester M328 (Multifunction Tester)
 - Voltmeter
@@ -48,6 +49,7 @@
         - CC-CV         : LTC3780 / LTC1871 / XL6009 / LM2596 + LM2577
     - Hi-link
 - Inverter module       : Electrogreen EG002
+- USB-C PD Trigger Board: ZY12PDN (https://www.youtube.com/watch?v=aIHj3qMRqqE)
 
 ### ICs
 - Microcontroller       : STM8S devboard
@@ -83,15 +85,19 @@
             - New Gen
                 - Monolithic power  : MP1584 / MP2307
                 - Richtek           : RT8272 / RT8259
+- Power Supply Monitor PC   : TL494 / KA7500
+- Protection
+    - eFuse                 : TPS2596xx
+    - Li-ion voltage cut-off: DW01
 - Schmitt-Trigger       : 74HC14N
 - Shift Register
     - Parrel to Serial  : 74HC165N
 - Flip-Flop             : HCF4013
-- eFuse                 : TPS2596xx
+- USB-C PD              : IP2368 (upto 100W buck boost converter)
 
 ### Discrete Components
 - Resistor pack / set   : Blue (Metal Film) / Beige (Carbon Film)
-- Potentiometers        : 1k, 4.7k, 10k, 22k, 100k
+- Potentiometers        : 1k, 4.7k, 10k, 22k, 100k (Multi-turn variants for fine control)
 - Capacitor pack / set  : Ceramic / Electrolytic
 - Diode
     - General Purpose
@@ -267,18 +273,19 @@ Source: Interwebz, Mortons on the Move, Battle Born, Battery University
 - Electronics
     - ktron.in
     - quartzcomponents.com
-    - robu.in
-    - robotbanao.com
+    - xcluma.com
     - electronicscomp.com
-    - electroncomponents.com
+    - robu.in
     - nevonexpress.com
+    - robotbanao.com
+    - electroncomponents.com
 - Electrical
     - bestomart.com
     - moglix.com
 
 ### OEM's
 - Schnieder Electric
-- L&T
+- L&T Switchgear
 - ABB
 - Yokins
 - HPL India
