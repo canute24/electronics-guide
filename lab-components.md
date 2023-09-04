@@ -270,15 +270,19 @@ Source: Interwebz, Mortons on the Move, Battle Born, Battery University
 
 ## Sources
 ### Marketplaces
+- Printing / Assembly
+    - lioncircuits.com
+    - nevonexpress.com
 - Electronics
     - ktron.in
     - quartzcomponents.com
     - xcluma.com
     - electronicscomp.com
     - robu.in
-    - nevonexpress.com
     - robotbanao.com
     - electroncomponents.com
+    - friendlyelec.com
+    - fabtolab.com
 - Electrical
     - bestomart.com
     - moglix.com
